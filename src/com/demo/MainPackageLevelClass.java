@@ -1,12 +1,16 @@
 package com.demo;
 
-public class MainPackageLevelClass {
+ class MainPackageLevelClass {
 	
 	/*
 	 * public MainPackageLevelClass() {
 	 * 
 	 * }
 	 */
+	 
+	 private MainPackageLevelClass() {
+		 
+	 }
 	
 	protected String mainPackageLevelClassMethod() {
 		
